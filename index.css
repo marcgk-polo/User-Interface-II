@@ -1,0 +1,144 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ========================= Reset end ========================== */
+
+
+.header {
+    background-color: gray;
+    padding:5%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size:2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.toolbar {
+    display:flex;
+    margin-left:1em;
+}
+
+.button {
+    border: 1px black solid;
+    padding: 1em;
+    font-size: 1em;
+    background-color: lightgray;
+    width:5em;
+    text-align:center;
+}
+
+.button:hover {
+    background-color:black;
+    color:white;
+}
+
+
+.about-section {
+    display:flex;
+    justify-content: center;
+    margin: 1em auto;
+    width:864px;
+    height:14em;
+}
+
+.about-details {
+    margin-left:3em;
+}
+
+h2 {
+    font-size:1.5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+p {
+    padding-top:1em;
+    padding-bottom:1mem;
+}
+
+.gallery-section img {
+    margin:.5em;
+    width:100%
+}
+
+.gallery-row {
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom:2em;
+    justify-content: center;
+}
+
+.project-item {
+    display:flex;
+    flex-direction:column;
+}
+
+.project-item p {
+    text-align:center;
+}
+
+.footer {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:row;
+    height:15em;
+    width:100%;
+    background-color: gray;
+}
+
+.contact-section {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.contact-section h2 {
+    padding:.5em;
+}
